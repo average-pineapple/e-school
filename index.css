@@ -1,3 +1,35 @@
-.nav-container{
-    
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.upper-container {
+    background: rgb(234, 245, 217);
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-options a {
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(80, 74, 74);
+}
+
+button {
+    background-color: rgba(107, 172, 63, 0.986);
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-style: none;
+}
+
+.get-started {
+    display: grid;
+    grid-template-columns: 2fr 3.5fr;
 }
